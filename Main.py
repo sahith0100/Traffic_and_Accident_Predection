@@ -178,6 +178,7 @@ def Home():
 	#NNbutton = tk.Button(window, text="NEURAL NETWORK", command=NNprocess  ,fg=fgcolor   ,bg=bgcolor1 ,width=15  ,height=2, activebackground = "Red" ,font=('times', 15, ' bold '))
 	#NNbutton.place(x=620, y=600)
 
+
 	quitWindow = tk.Button(window, text="Quit", command=window.destroy  ,fg=fgcolor   ,bg=bgcolor1  ,width=15  ,height=2, activebackground = "Red" ,font=('times', 15, ' bold '))
 	quitWindow.place(x=1060, y=600)
 
